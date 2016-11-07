@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Asistencia" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idAsistencia" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="idTipoAsistencia" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minuto" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gol" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idGol" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minuto" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Jugador" syncable="YES">
+        <attribute name="apellido1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apellido2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dorsal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaIngreso" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaSalida" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posicion1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posicion2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Mail" syncable="YES">
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idMail" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Partido" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idPartido" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idTipoPartido" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lugar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marcador" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rival" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tarjeta" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTarjeta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="idTipoTarjeta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minuto" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Telefono" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTelefono" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minuto" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Telefono"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="TipoAsitencia" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTipoAsistencia" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TipoGol" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TipoPartido" syncable="YES">
+        <attribute name="idTipoPartido" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TipoTarjeta" syncable="YES">
+        <attribute name="idTipoTrajeta" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Jugador" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="Telefono" positionX="-54" positionY="72" width="128" height="119"/>
+        <element name="Mail" positionX="-36" positionY="81" width="128" height="75"/>
+        <element name="Gol" positionX="-18" positionY="90" width="128" height="90"/>
+        <element name="TipoGol" positionX="0" positionY="99" width="128" height="75"/>
+        <element name="Asistencia" positionX="18" positionY="108" width="128" height="105"/>
+        <element name="TipoAsitencia" positionX="36" positionY="126" width="128" height="75"/>
+        <element name="Tarjeta" positionX="-9" positionY="72" width="128" height="105"/>
+        <element name="TipoTarjeta" positionX="0" positionY="81" width="128" height="75"/>
+        <element name="Partido" positionX="9" positionY="90" width="128" height="165"/>
+        <element name="TipoPartido" positionX="18" positionY="126" width="128" height="75"/>
+    </elements>
+</model>

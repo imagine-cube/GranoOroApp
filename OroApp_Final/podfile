@@ -1,0 +1,12 @@
+
+target 'OroApp' do
+pod "MagicalRecord"
+pod 'Parse'
+
+end
+
+target 'OroAppTests' do
+pod "MagicalRecord"
+pod 'Parse'
+end
+

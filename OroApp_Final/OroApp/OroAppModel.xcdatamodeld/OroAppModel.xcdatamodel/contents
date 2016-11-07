@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="DetallesJugador" representedClassName="DetallesJugador" syncable="YES">
+        <attribute name="nota" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="jugador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jugador" inverseName="detallesJugador" inverseEntity="Jugador" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="detallesJugador" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <entity name="Jugador" representedClassName="Jugador" syncable="YES">
+        <attribute name="apellido1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apellido2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cedula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dorsal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaIngreso" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaModificacion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaSalida" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posicionAlternativa" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="detallesJugador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetallesJugador" inverseName="jugador" inverseEntity="DetallesJugador" syncable="YES"/>
+        <relationship name="pago" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pago" inverseName="jugador" inverseEntity="Pago" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Photo" inverseName="jugador" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <entity name="Pago" representedClassName="Pago" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="monto" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="jugador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jugador" inverseName="pago" inverseEntity="Jugador" syncable="YES"/>
+        <relationship name="partido" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Partido" inverseName="pagos" inverseEntity="Partido" syncable="YES"/>
+    </entity>
+    <entity name="Partido" representedClassName="Partido" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lugar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rival" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pagos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Pago" inverseName="partido" inverseEntity="Pago" syncable="YES"/>
+        <relationship name="tipo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TipoPartido" inverseName="partido" inverseEntity="TipoPartido" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="imageFile" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="detallesJugador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetallesJugador" inverseName="photo" inverseEntity="DetallesJugador" syncable="YES"/>
+        <relationship name="jugador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jugador" inverseName="photo" inverseEntity="Jugador" syncable="YES"/>
+    </entity>
+    <entity name="TipoPartido" representedClassName="TipoPartido" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="partido" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Partido" inverseName="tipo" inverseEntity="Partido" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DetallesJugador" positionX="-72" positionY="-9" width="128" height="90"/>
+        <element name="Jugador" positionX="-333" positionY="-18" width="128" height="270"/>
+        <element name="Pago" positionX="-135" positionY="261" width="128" height="135"/>
+        <element name="Partido" positionX="385" positionY="168" width="128" height="163"/>
+        <element name="Photo" positionX="223" positionY="-27" width="128" height="88"/>
+        <element name="TipoPartido" positionX="-18" positionY="126" width="128" height="90"/>
+    </elements>
+</model>

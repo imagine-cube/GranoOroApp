@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110B8AA81C0AAEC4002CC6CD /* PartidoCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B8AA61C0AAEC4002CC6CD /* PartidoCustomTableViewCell.m */; };
+		110B8AA91C0AAEC4002CC6CD /* PartidoCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110B8AA71C0AAEC4002CC6CD /* PartidoCustomTableViewCell.xib */; };
+		110B8AAC1C0AB10E002CC6CD /* PartidoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B8AAB1C0AB10E002CC6CD /* PartidoTableViewController.m */; };
+		110B8AAF1C0AB5BC002CC6CD /* AddPartidoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110B8AAE1C0AB5BC002CC6CD /* AddPartidoTableViewController.m */; };
+		11897BA41C0AD75500CBFEE7 /* _DetallesJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897B991C0AD75500CBFEE7 /* _DetallesJugador.m */; };
+		11897BA51C0AD75500CBFEE7 /* _Pago.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897B9B1C0AD75500CBFEE7 /* _Pago.m */; };
+		11897BA91C0AD75500CBFEE7 /* _TipoPartido.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BA31C0AD75500CBFEE7 /* _TipoPartido.m */; };
+		11897BB61C0AD77400CBFEE7 /* DetallesJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BAB1C0AD77400CBFEE7 /* DetallesJugador.m */; };
+		11897BB71C0AD77400CBFEE7 /* Jugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BAD1C0AD77400CBFEE7 /* Jugador.m */; };
+		11897BB81C0AD77400CBFEE7 /* Pago.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BAF1C0AD77400CBFEE7 /* Pago.m */; };
+		11897BB91C0AD77400CBFEE7 /* Partido.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BB11C0AD77400CBFEE7 /* Partido.m */; };
+		11897BBA1C0AD77400CBFEE7 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BB31C0AD77400CBFEE7 /* Photo.m */; };
+		11897BBB1C0AD77400CBFEE7 /* TipoPartido.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BB51C0AD77400CBFEE7 /* TipoPartido.m */; };
+		11897BBE1C0AF22700CBFEE7 /* PagosPartidoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BBD1C0AF22700CBFEE7 /* PagosPartidoTableViewController.m */; };
+		11897BC11C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BC01C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.m */; };
+		11897BC51C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BC31C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.m */; };
+		11897BC61C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11897BC41C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.xib */; };
+		11897BC91C0AF44600CBFEE7 /* AddPagoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11897BC81C0AF44600CBFEE7 /* AddPagoTableViewController.m */; };
+		11DD6FF21C4AEB66001B4278 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DD6FF11C4AEB66001B4278 /* noImage.png */; };
+		11DD6FF51C4B1713001B4278 /* _Jugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DD6FF41C4B1713001B4278 /* _Jugador.m */; };
+		11DE98D01C437007006A5349 /* _Partido.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE98CF1C437007006A5349 /* _Partido.m */; };
+		11DE98D61C438639006A5349 /* _Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE98D41C438639006A5349 /* _Photo.m */; };
+		11E2FA231C4A271C00867E94 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2FA221C4A271C00867E94 /* AGTCoreDataTableViewController.m */; };
+		68C21B75C9BD49ADE56E3EE7 /* libPods-OroApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7072630E8E46BF278C042D2 /* libPods-OroApp.a */; };
+		BB1752E71C018FEC00CD749D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1752E61C018FEC00CD749D /* MainViewController.m */; };
+		BB1752EA1C01900100CD749D /* JugadoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1752E91C01900100CD749D /* JugadoresTableViewController.m */; };
+		BB1752F31C01B33800CD749D /* AddPlayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1752F21C01B33800CD749D /* AddPlayerTableViewController.m */; };
+		BB1752FC1C01C74200CD749D /* OroAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB1752FA1C01C74200CD749D /* OroAppModel.xcdatamodeld */; };
+		BB17534B1C077C1600CD749D /* PlayerCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1753491C077C1600CD749D /* PlayerCustomTableViewCell.m */; };
+		BB17534C1C077C1600CD749D /* PlayerCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB17534A1C077C1600CD749D /* PlayerCustomTableViewCell.xib */; };
+		BB68743B1C0136AD00144406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB68743A1C0136AD00144406 /* main.m */; };
+		BB68743E1C0136AD00144406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB68743D1C0136AD00144406 /* AppDelegate.m */; };
+		BB6874441C0136AD00144406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6874421C0136AD00144406 /* Main.storyboard */; };
+		BB6874491C0136AD00144406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6874481C0136AD00144406 /* Assets.xcassets */; };
+		BB6874571C0136AD00144406 /* OroAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6874561C0136AD00144406 /* OroAppTests.m */; };
+		BB6874621C0136AD00144406 /* OroAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6874611C0136AD00144406 /* OroAppUITests.m */; };
+		EC71BAF73A0C61AFB8238312 /* libPods-OroAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BD1143E2E3F206F63E6F61 /* libPods-OroAppTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6874531C0136AD00144406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB68742E1C0136AD00144406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6874351C0136AD00144406;
+			remoteInfo = OroApp;
+		};
+		BB68745E1C0136AD00144406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB68742E1C0136AD00144406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6874351C0136AD00144406;
+			remoteInfo = OroApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110B8AA51C0AAEC4002CC6CD /* PartidoCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartidoCustomTableViewCell.h; sourceTree = "<group>"; };
+		110B8AA61C0AAEC4002CC6CD /* PartidoCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartidoCustomTableViewCell.m; sourceTree = "<group>"; };
+		110B8AA71C0AAEC4002CC6CD /* PartidoCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PartidoCustomTableViewCell.xib; sourceTree = "<group>"; };
+		110B8AAA1C0AB10E002CC6CD /* PartidoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartidoTableViewController.h; sourceTree = "<group>"; };
+		110B8AAB1C0AB10E002CC6CD /* PartidoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartidoTableViewController.m; sourceTree = "<group>"; };
+		110B8AAD1C0AB5BC002CC6CD /* AddPartidoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPartidoTableViewController.h; sourceTree = "<group>"; };
+		110B8AAE1C0AB5BC002CC6CD /* AddPartidoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPartidoTableViewController.m; sourceTree = "<group>"; };
+		11897B981C0AD75500CBFEE7 /* _DetallesJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DetallesJugador.h; sourceTree = "<group>"; };
+		11897B991C0AD75500CBFEE7 /* _DetallesJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DetallesJugador.m; sourceTree = "<group>"; };
+		11897B9A1C0AD75500CBFEE7 /* _Pago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Pago.h; sourceTree = "<group>"; };
+		11897B9B1C0AD75500CBFEE7 /* _Pago.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Pago.m; sourceTree = "<group>"; };
+		11897BA21C0AD75500CBFEE7 /* _TipoPartido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _TipoPartido.h; sourceTree = "<group>"; };
+		11897BA31C0AD75500CBFEE7 /* _TipoPartido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _TipoPartido.m; sourceTree = "<group>"; };
+		11897BAA1C0AD77400CBFEE7 /* DetallesJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetallesJugador.h; sourceTree = "<group>"; };
+		11897BAB1C0AD77400CBFEE7 /* DetallesJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetallesJugador.m; sourceTree = "<group>"; };
+		11897BAC1C0AD77400CBFEE7 /* Jugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugador.h; sourceTree = "<group>"; };
+		11897BAD1C0AD77400CBFEE7 /* Jugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugador.m; sourceTree = "<group>"; };
+		11897BAE1C0AD77400CBFEE7 /* Pago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pago.h; sourceTree = "<group>"; };
+		11897BAF1C0AD77400CBFEE7 /* Pago.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pago.m; sourceTree = "<group>"; };
+		11897BB01C0AD77400CBFEE7 /* Partido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partido.h; sourceTree = "<group>"; };
+		11897BB11C0AD77400CBFEE7 /* Partido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Partido.m; sourceTree = "<group>"; };
+		11897BB21C0AD77400CBFEE7 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		11897BB31C0AD77400CBFEE7 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		11897BB41C0AD77400CBFEE7 /* TipoPartido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoPartido.h; sourceTree = "<group>"; };
+		11897BB51C0AD77400CBFEE7 /* TipoPartido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoPartido.m; sourceTree = "<group>"; };
+		11897BBC1C0AF22700CBFEE7 /* PagosPartidoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagosPartidoTableViewController.h; sourceTree = "<group>"; };
+		11897BBD1C0AF22700CBFEE7 /* PagosPartidoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagosPartidoTableViewController.m; sourceTree = "<group>"; };
+		11897BBF1C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaPagosPartidoTableViewController.h; sourceTree = "<group>"; };
+		11897BC01C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaPagosPartidoTableViewController.m; sourceTree = "<group>"; };
+		11897BC21C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagoPartidoTableViewCell.h; sourceTree = "<group>"; };
+		11897BC31C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagoPartidoTableViewCell.m; sourceTree = "<group>"; };
+		11897BC41C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagoPartidoTableViewCell.xib; sourceTree = "<group>"; };
+		11897BC71C0AF44600CBFEE7 /* AddPagoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPagoTableViewController.h; sourceTree = "<group>"; };
+		11897BC81C0AF44600CBFEE7 /* AddPagoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPagoTableViewController.m; sourceTree = "<group>"; };
+		11DD6FF11C4AEB66001B4278 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noImage.png; path = ../../noImage.png; sourceTree = "<group>"; };
+		11DD6FF31C4B1713001B4278 /* _Jugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Jugador.h; sourceTree = "<group>"; };
+		11DD6FF41C4B1713001B4278 /* _Jugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Jugador.m; sourceTree = "<group>"; };
+		11DE98CE1C437007006A5349 /* _Partido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Partido.h; sourceTree = "<group>"; };
+		11DE98CF1C437007006A5349 /* _Partido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Partido.m; sourceTree = "<group>"; };
+		11DE98D31C438639006A5349 /* _Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Photo.h; sourceTree = "<group>"; };
+		11DE98D41C438639006A5349 /* _Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Photo.m; sourceTree = "<group>"; };
+		11E2FA1E1C49FE0000867E94 /* OroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OroDetailViewController.h; sourceTree = "<group>"; };
+		11E2FA211C4A271C00867E94 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		11E2FA221C4A271C00867E94 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		1E91C1D037E346DFB66483DD /* Pods-OroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OroApp/Pods-OroApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCE2DC344A8DC17F70EC134 /* Pods-OroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OroApp/Pods-OroApp.release.xcconfig"; sourceTree = "<group>"; };
+		55BD1143E2E3F206F63E6F61 /* libPods-OroAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OroAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E03DDFC1AB8001CF81D071 /* Pods-OroAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OroAppTests/Pods-OroAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4C734C2B17F034D03A62D1E /* Pods-OroAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OroAppTests/Pods-OroAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7072630E8E46BF278C042D2 /* libPods-OroApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OroApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1752E51C018FEC00CD749D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BB1752E61C018FEC00CD749D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BB1752E81C01900100CD749D /* JugadoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JugadoresTableViewController.h; sourceTree = "<group>"; };
+		BB1752E91C01900100CD749D /* JugadoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JugadoresTableViewController.m; sourceTree = "<group>"; };
+		BB1752F11C01B33800CD749D /* AddPlayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayerTableViewController.h; sourceTree = "<group>"; };
+		BB1752F21C01B33800CD749D /* AddPlayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayerTableViewController.m; sourceTree = "<group>"; };
+		BB1752FB1C01C74200CD749D /* OroAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OroAppModel.xcdatamodel; sourceTree = "<group>"; };
+		BB1753481C077C1600CD749D /* PlayerCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCustomTableViewCell.h; sourceTree = "<group>"; };
+		BB1753491C077C1600CD749D /* PlayerCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCustomTableViewCell.m; sourceTree = "<group>"; };
+		BB17534A1C077C1600CD749D /* PlayerCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCustomTableViewCell.xib; sourceTree = "<group>"; };
+		BB6874361C0136AD00144406 /* OroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB68743A1C0136AD00144406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB68743C1C0136AD00144406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB68743D1C0136AD00144406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB6874431C0136AD00144406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6874481C0136AD00144406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB68744D1C0136AD00144406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6874521C0136AD00144406 /* OroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6874561C0136AD00144406 /* OroAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OroAppTests.m; sourceTree = "<group>"; };
+		BB6874581C0136AD00144406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB68745D1C0136AD00144406 /* OroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6874611C0136AD00144406 /* OroAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OroAppUITests.m; sourceTree = "<group>"; };
+		BB6874631C0136AD00144406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB68746F1C01381D00144406 /* OroApp-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OroApp-PrefixHeader.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6874331C0136AD00144406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C21B75C9BD49ADE56E3EE7 /* libPods-OroApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB68744F1C0136AD00144406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC71BAF73A0C61AFB8238312 /* libPods-OroAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB68745A1C0136AD00144406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DD6FF01C4AEB4E001B4278 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				11DD6FF11C4AEB66001B4278 /* noImage.png */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
+		11E2FA1D1C49FDD900867E94 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11E2FA1E1C49FE0000867E94 /* OroDetailViewController.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		8CF190065B844E5E37B04D11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E91C1D037E346DFB66483DD /* Pods-OroApp.debug.xcconfig */,
+				4CCE2DC344A8DC17F70EC134 /* Pods-OroApp.release.xcconfig */,
+				B4C734C2B17F034D03A62D1E /* Pods-OroAppTests.debug.xcconfig */,
+				63E03DDFC1AB8001CF81D071 /* Pods-OroAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1752F41C01B3AE00CD749D /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BB1753481C077C1600CD749D /* PlayerCustomTableViewCell.h */,
+				BB1753491C077C1600CD749D /* PlayerCustomTableViewCell.m */,
+				BB17534A1C077C1600CD749D /* PlayerCustomTableViewCell.xib */,
+				110B8AA51C0AAEC4002CC6CD /* PartidoCustomTableViewCell.h */,
+				110B8AA61C0AAEC4002CC6CD /* PartidoCustomTableViewCell.m */,
+				110B8AA71C0AAEC4002CC6CD /* PartidoCustomTableViewCell.xib */,
+				11897BC21C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.h */,
+				11897BC31C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.m */,
+				11897BC41C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		BB1752FD1C01C7E800CD749D /* HumanFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11897BAA1C0AD77400CBFEE7 /* DetallesJugador.h */,
+				11897BAB1C0AD77400CBFEE7 /* DetallesJugador.m */,
+				11897BAC1C0AD77400CBFEE7 /* Jugador.h */,
+				11897BAD1C0AD77400CBFEE7 /* Jugador.m */,
+				11897BAE1C0AD77400CBFEE7 /* Pago.h */,
+				11897BAF1C0AD77400CBFEE7 /* Pago.m */,
+				11897BB01C0AD77400CBFEE7 /* Partido.h */,
+				11897BB11C0AD77400CBFEE7 /* Partido.m */,
+				11897BB21C0AD77400CBFEE7 /* Photo.h */,
+				11897BB31C0AD77400CBFEE7 /* Photo.m */,
+				11897BB41C0AD77400CBFEE7 /* TipoPartido.h */,
+				11897BB51C0AD77400CBFEE7 /* TipoPartido.m */,
+			);
+			name = HumanFiles;
+			sourceTree = "<group>";
+		};
+		BB1753051C01C9B400CD749D /* MachineFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11DE98CE1C437007006A5349 /* _Partido.h */,
+				11DD6FF31C4B1713001B4278 /* _Jugador.h */,
+				11DD6FF41C4B1713001B4278 /* _Jugador.m */,
+				11DE98D31C438639006A5349 /* _Photo.h */,
+				11DE98D41C438639006A5349 /* _Photo.m */,
+				11DE98CF1C437007006A5349 /* _Partido.m */,
+				11897B981C0AD75500CBFEE7 /* _DetallesJugador.h */,
+				11897B991C0AD75500CBFEE7 /* _DetallesJugador.m */,
+				11897B9A1C0AD75500CBFEE7 /* _Pago.h */,
+				11897B9B1C0AD75500CBFEE7 /* _Pago.m */,
+				11897BA21C0AD75500CBFEE7 /* _TipoPartido.h */,
+				11897BA31C0AD75500CBFEE7 /* _TipoPartido.m */,
+			);
+			name = MachineFiles;
+			sourceTree = "<group>";
+		};
+		BB68742D1C0136AD00144406 = {
+			isa = PBXGroup;
+			children = (
+				BB6874381C0136AD00144406 /* OroApp */,
+				BB6874551C0136AD00144406 /* OroAppTests */,
+				BB6874601C0136AD00144406 /* OroAppUITests */,
+				BB6874371C0136AD00144406 /* Products */,
+				8CF190065B844E5E37B04D11 /* Pods */,
+				D35057E4B8002DFB3D16C0D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6874371C0136AD00144406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6874361C0136AD00144406 /* OroApp.app */,
+				BB6874521C0136AD00144406 /* OroAppTests.xctest */,
+				BB68745D1C0136AD00144406 /* OroAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6874381C0136AD00144406 /* OroApp */ = {
+			isa = PBXGroup;
+			children = (
+				11DD6FF01C4AEB4E001B4278 /* Imagenes */,
+				11E2FA1D1C49FDD900867E94 /* Protocols */,
+				BBCC149F1C013EAC005EA645 /* View */,
+				BBCC149E1C013EA1005EA645 /* Controller */,
+				BBCC149D1C013E9A005EA645 /* Model */,
+				BB6874481C0136AD00144406 /* Assets.xcassets */,
+				BB68744D1C0136AD00144406 /* Info.plist */,
+				BB6874391C0136AD00144406 /* Supporting Files */,
+			);
+			path = OroApp;
+			sourceTree = "<group>";
+		};
+		BB6874391C0136AD00144406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB68743A1C0136AD00144406 /* main.m */,
+				BB68746F1C01381D00144406 /* OroApp-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB6874551C0136AD00144406 /* OroAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6874561C0136AD00144406 /* OroAppTests.m */,
+				BB6874581C0136AD00144406 /* Info.plist */,
+			);
+			path = OroAppTests;
+			sourceTree = "<group>";
+		};
+		BB6874601C0136AD00144406 /* OroAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6874611C0136AD00144406 /* OroAppUITests.m */,
+				BB6874631C0136AD00144406 /* Info.plist */,
+			);
+			path = OroAppUITests;
+			sourceTree = "<group>";
+		};
+		BBCC149D1C013E9A005EA645 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB1752FD1C01C7E800CD749D /* HumanFiles */,
+				BB1753051C01C9B400CD749D /* MachineFiles */,
+				BB1752FA1C01C74200CD749D /* OroAppModel.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BBCC149E1C013EA1005EA645 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB68743C1C0136AD00144406 /* AppDelegate.h */,
+				BB68743D1C0136AD00144406 /* AppDelegate.m */,
+				BB1752E51C018FEC00CD749D /* MainViewController.h */,
+				BB1752E61C018FEC00CD749D /* MainViewController.m */,
+				BB1752E81C01900100CD749D /* JugadoresTableViewController.h */,
+				BB1752E91C01900100CD749D /* JugadoresTableViewController.m */,
+				BB1752F11C01B33800CD749D /* AddPlayerTableViewController.h */,
+				BB1752F21C01B33800CD749D /* AddPlayerTableViewController.m */,
+				110B8AAA1C0AB10E002CC6CD /* PartidoTableViewController.h */,
+				110B8AAB1C0AB10E002CC6CD /* PartidoTableViewController.m */,
+				110B8AAD1C0AB5BC002CC6CD /* AddPartidoTableViewController.h */,
+				110B8AAE1C0AB5BC002CC6CD /* AddPartidoTableViewController.m */,
+				11897BBC1C0AF22700CBFEE7 /* PagosPartidoTableViewController.h */,
+				11897BBD1C0AF22700CBFEE7 /* PagosPartidoTableViewController.m */,
+				11897BBF1C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.h */,
+				11897BC01C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.m */,
+				11897BC71C0AF44600CBFEE7 /* AddPagoTableViewController.h */,
+				11897BC81C0AF44600CBFEE7 /* AddPagoTableViewController.m */,
+				11E2FA211C4A271C00867E94 /* AGTCoreDataTableViewController.h */,
+				11E2FA221C4A271C00867E94 /* AGTCoreDataTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BBCC149F1C013EAC005EA645 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB1752F41C01B3AE00CD749D /* CustomCells */,
+				BB6874421C0136AD00144406 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D35057E4B8002DFB3D16C0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7072630E8E46BF278C042D2 /* libPods-OroApp.a */,
+				55BD1143E2E3F206F63E6F61 /* libPods-OroAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6874351C0136AD00144406 /* OroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6874661C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroApp" */;
+			buildPhases = (
+				72B7DC2066D110D4F402D045 /* Check Pods Manifest.lock */,
+				BB6874321C0136AD00144406 /* Sources */,
+				BB6874331C0136AD00144406 /* Frameworks */,
+				BB6874341C0136AD00144406 /* Resources */,
+				DF87599181E7D508EAAC877A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OroApp;
+			productName = OroApp;
+			productReference = BB6874361C0136AD00144406 /* OroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6874511C0136AD00144406 /* OroAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6874691C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroAppTests" */;
+			buildPhases = (
+				7CA9EC5A8EA0E47C4A9AE4FA /* Check Pods Manifest.lock */,
+				BB68744E1C0136AD00144406 /* Sources */,
+				BB68744F1C0136AD00144406 /* Frameworks */,
+				BB6874501C0136AD00144406 /* Resources */,
+				2711529022EEAB5DA9538D3D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6874541C0136AD00144406 /* PBXTargetDependency */,
+			);
+			name = OroAppTests;
+			productName = OroAppTests;
+			productReference = BB6874521C0136AD00144406 /* OroAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB68745C1C0136AD00144406 /* OroAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB68746C1C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroAppUITests" */;
+			buildPhases = (
+				BB6874591C0136AD00144406 /* Sources */,
+				BB68745A1C0136AD00144406 /* Frameworks */,
+				BB68745B1C0136AD00144406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB68745F1C0136AD00144406 /* PBXTargetDependency */,
+			);
+			name = OroAppUITests;
+			productName = OroAppUITests;
+			productReference = BB68745D1C0136AD00144406 /* OroAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB68742E1C0136AD00144406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Guillermo Azofeifa";
+				TargetAttributes = {
+					BB6874351C0136AD00144406 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8VNRXSK95E;
+					};
+					BB6874511C0136AD00144406 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB6874351C0136AD00144406;
+					};
+					BB68745C1C0136AD00144406 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB6874351C0136AD00144406;
+					};
+				};
+			};
+			buildConfigurationList = BB6874311C0136AD00144406 /* Build configuration list for PBXProject "OroApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB68742D1C0136AD00144406;
+			productRefGroup = BB6874371C0136AD00144406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6874351C0136AD00144406 /* OroApp */,
+				BB6874511C0136AD00144406 /* OroAppTests */,
+				BB68745C1C0136AD00144406 /* OroAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6874341C0136AD00144406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110B8AA91C0AAEC4002CC6CD /* PartidoCustomTableViewCell.xib in Resources */,
+				BB6874491C0136AD00144406 /* Assets.xcassets in Resources */,
+				11DD6FF21C4AEB66001B4278 /* noImage.png in Resources */,
+				BB17534C1C077C1600CD749D /* PlayerCustomTableViewCell.xib in Resources */,
+				11897BC61C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.xib in Resources */,
+				BB6874441C0136AD00144406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6874501C0136AD00144406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB68745B1C0136AD00144406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2711529022EEAB5DA9538D3D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OroAppTests/Pods-OroAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72B7DC2066D110D4F402D045 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA9EC5A8EA0E47C4A9AE4FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF87599181E7D508EAAC877A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OroApp/Pods-OroApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6874321C0136AD00144406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11897BBA1C0AD77400CBFEE7 /* Photo.m in Sources */,
+				11DD6FF51C4B1713001B4278 /* _Jugador.m in Sources */,
+				11897BA51C0AD75500CBFEE7 /* _Pago.m in Sources */,
+				11897BB61C0AD77400CBFEE7 /* DetallesJugador.m in Sources */,
+				11897BC51C0AF3D100CBFEE7 /* PagoPartidoTableViewCell.m in Sources */,
+				BB68743E1C0136AD00144406 /* AppDelegate.m in Sources */,
+				11897BBE1C0AF22700CBFEE7 /* PagosPartidoTableViewController.m in Sources */,
+				11897BB71C0AD77400CBFEE7 /* Jugador.m in Sources */,
+				BB1752FC1C01C74200CD749D /* OroAppModel.xcdatamodeld in Sources */,
+				110B8AAC1C0AB10E002CC6CD /* PartidoTableViewController.m in Sources */,
+				BB1752E71C018FEC00CD749D /* MainViewController.m in Sources */,
+				11897BA91C0AD75500CBFEE7 /* _TipoPartido.m in Sources */,
+				110B8AAF1C0AB5BC002CC6CD /* AddPartidoTableViewController.m in Sources */,
+				11897BA41C0AD75500CBFEE7 /* _DetallesJugador.m in Sources */,
+				11DE98D61C438639006A5349 /* _Photo.m in Sources */,
+				11897BBB1C0AD77400CBFEE7 /* TipoPartido.m in Sources */,
+				11DE98D01C437007006A5349 /* _Partido.m in Sources */,
+				BB1752EA1C01900100CD749D /* JugadoresTableViewController.m in Sources */,
+				BB1752F31C01B33800CD749D /* AddPlayerTableViewController.m in Sources */,
+				BB68743B1C0136AD00144406 /* main.m in Sources */,
+				11897BC11C0AF34A00CBFEE7 /* ListaPagosPartidoTableViewController.m in Sources */,
+				11897BB81C0AD77400CBFEE7 /* Pago.m in Sources */,
+				110B8AA81C0AAEC4002CC6CD /* PartidoCustomTableViewCell.m in Sources */,
+				11897BC91C0AF44600CBFEE7 /* AddPagoTableViewController.m in Sources */,
+				BB17534B1C077C1600CD749D /* PlayerCustomTableViewCell.m in Sources */,
+				11897BB91C0AD77400CBFEE7 /* Partido.m in Sources */,
+				11E2FA231C4A271C00867E94 /* AGTCoreDataTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB68744E1C0136AD00144406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6874571C0136AD00144406 /* OroAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6874591C0136AD00144406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6874621C0136AD00144406 /* OroAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6874541C0136AD00144406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6874351C0136AD00144406 /* OroApp */;
+			targetProxy = BB6874531C0136AD00144406 /* PBXContainerItemProxy */;
+		};
+		BB68745F1C0136AD00144406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6874351C0136AD00144406 /* OroApp */;
+			targetProxy = BB68745E1C0136AD00144406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB6874421C0136AD00144406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6874431C0136AD00144406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6874641C0136AD00144406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB6874651C0136AD00144406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6874671C0136AD00144406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E91C1D037E346DFB66483DD /* Pods-OroApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8VNRXSK95E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/OroApp-PrefixHeader.pch";
+				INFOPLIST_FILE = OroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB6874681C0136AD00144406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCE2DC344A8DC17F70EC134 /* Pods-OroApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8VNRXSK95E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/OroApp-PrefixHeader.pch";
+				INFOPLIST_FILE = OroApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB68746A1C0136AD00144406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C734C2B17F034D03A62D1E /* Pods-OroAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OroApp.app/OroApp";
+			};
+			name = Debug;
+		};
+		BB68746B1C0136AD00144406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E03DDFC1AB8001CF81D071 /* Pods-OroAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OroAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OroApp.app/OroApp";
+			};
+			name = Release;
+		};
+		BB68746D1C0136AD00144406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OroApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB68746E1C0136AD00144406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OroAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImagineApps.OroAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OroApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6874311C0136AD00144406 /* Build configuration list for PBXProject "OroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6874641C0136AD00144406 /* Debug */,
+				BB6874651C0136AD00144406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6874661C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6874671C0136AD00144406 /* Debug */,
+				BB6874681C0136AD00144406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6874691C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB68746A1C0136AD00144406 /* Debug */,
+				BB68746B1C0136AD00144406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB68746C1C0136AD00144406 /* Build configuration list for PBXNativeTarget "OroAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB68746D1C0136AD00144406 /* Debug */,
+				BB68746E1C0136AD00144406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB1752FA1C01C74200CD749D /* OroAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB1752FB1C01C74200CD749D /* OroAppModel.xcdatamodel */,
+			);
+			currentVersion = BB1752FB1C01C74200CD749D /* OroAppModel.xcdatamodel */;
+			path = OroAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB68742E1C0136AD00144406 /* Project object */;
+}

@@ -1,0 +1,16 @@
+//
+//  OroApp-PrefixHeader.pch
+//  OroApp
+//
+//  Created by Guillermo Azofeifa on 11/21/15.
+//  Copyright © 2015 Guillermo Azofeifa. All rights reserved.
+//
+
+#ifndef OroApp_PrefixHeader_pch
+#define OroApp_PrefixHeader_pch
+#import <MagicalRecord/MagicalRecord.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* OroApp_PrefixHeader_pch */
